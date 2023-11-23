@@ -13,9 +13,8 @@
         android:theme="@style/Theme.ComposeApps"
         tools:targetApi="31">
         <activity
-            android:name=".WoofActivity"
+            android:name=".UnscrambleActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.ComposeApps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
