@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.dessert
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -34,7 +34,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import dev.abhinav.composeapps.data.LocalDessertReleaseData
+import dev.abhinav.composeapps.R
 import dev.abhinav.composeapps.ui.theme.ComposeAppsTheme
 import dev.abhinav.composeapps.viewmodel.DessertReleaseUiState
 import dev.abhinav.composeapps.viewmodel.DessertReleaseViewModel

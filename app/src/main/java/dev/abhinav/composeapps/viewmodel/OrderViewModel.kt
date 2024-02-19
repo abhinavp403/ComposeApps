@@ -1,7 +1,7 @@
 package dev.abhinav.composeapps.viewmodel
 
 import androidx.lifecycle.ViewModel
-import dev.abhinav.composeapps.OrderUiState
+import dev.abhinav.composeapps.cupcake.OrderUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

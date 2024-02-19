@@ -7,9 +7,8 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import dev.abhinav.composeapps.R
-import dev.abhinav.composeapps.data.UserPreferencesRepository
+import dev.abhinav.composeapps.dessert.UserPreferencesRepository
 import dev.abhinav.composeapps.di.DessertReleaseApplication
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

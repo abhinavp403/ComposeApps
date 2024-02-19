@@ -14,7 +14,7 @@
         android:theme="@style/Theme.ComposeApps"
         tools:targetApi="31">
         <activity
-            android:name=".DessertReleaseActivity"
+            android:name=".dessert.DessertReleaseActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeApps">
             <intent-filter>

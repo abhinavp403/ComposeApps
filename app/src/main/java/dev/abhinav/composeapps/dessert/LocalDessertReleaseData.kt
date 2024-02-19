@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps.data
+package dev.abhinav.composeapps.dessert
 
 object LocalDessertReleaseData {
     val dessertReleases = listOf(

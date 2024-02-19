@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.dessert
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

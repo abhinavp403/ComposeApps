@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.inventory
 
 import android.annotation.SuppressLint
 import androidx.compose.material.icons.Icons
@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import dev.abhinav.composeapps.inventory.InventoryNavHost
+import dev.abhinav.composeapps.R
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable

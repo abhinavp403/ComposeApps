@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.inventory
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import dev.abhinav.composeapps.ui.theme.ComposeAppsTheme
 
-class UnscrambleActivity : ComponentActivity() {
+class InventoryActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,7 @@ class UnscrambleActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GameScreen()
+                    InventoryApp()
                 }
             }
         }

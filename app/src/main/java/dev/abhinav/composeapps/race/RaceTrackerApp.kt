@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.race
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -32,8 +32,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import dev.abhinav.composeapps.race.RaceParticipant
-import dev.abhinav.composeapps.race.progressFactor
+import dev.abhinav.composeapps.R
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 

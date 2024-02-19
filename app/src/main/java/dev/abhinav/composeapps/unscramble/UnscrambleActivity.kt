@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.unscramble
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,8 +8,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import dev.abhinav.composeapps.ui.theme.ComposeAppsTheme
+import dev.abhinav.composeapps.unscramble.GameScreen
 
-class RaceTrackerActivity : ComponentActivity() {
+class UnscrambleActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,9 +18,10 @@ class RaceTrackerActivity : ComponentActivity() {
             ComposeAppsTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize()
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
                 ) {
-                    RaceTrackerApp()
+                    GameScreen()
                 }
             }
         }

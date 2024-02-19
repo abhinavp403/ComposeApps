@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps.data
+package dev.abhinav.composeapps.dessert
 
 import android.util.Log
 import androidx.datastore.core.DataStore

@@ -1,7 +1,6 @@
 package dev.abhinav.composeapps.inventory
 
 import androidx.annotation.StringRes
-import dev.abhinav.composeapps.InventoryTopAppBar
 import dev.abhinav.composeapps.R
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

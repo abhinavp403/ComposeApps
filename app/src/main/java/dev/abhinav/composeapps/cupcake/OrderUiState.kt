@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.cupcake
 
 /**
  * Data class that represents the current UI state in terms of [quantity], [flavor],

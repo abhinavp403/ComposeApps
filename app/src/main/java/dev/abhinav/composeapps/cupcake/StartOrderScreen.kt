@@ -24,7 +24,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.abhinav.composeapps.R
-import dev.abhinav.composeapps.data.CupcakeDataSource
 
 /**
  * Composable that allows the user to select the desired cupcake quantity and expects

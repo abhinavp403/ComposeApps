@@ -1,4 +1,4 @@
-package dev.abhinav.composeapps
+package dev.abhinav.composeapps.cupcake
 
 import android.content.Context
 import android.content.Intent
@@ -28,10 +28,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import dev.abhinav.composeapps.cupcake.OrderSummaryScreen
-import dev.abhinav.composeapps.cupcake.SelectOptionScreen
-import dev.abhinav.composeapps.cupcake.StartOrderScreen
-import dev.abhinav.composeapps.data.CupcakeDataSource
+import dev.abhinav.composeapps.R
 import dev.abhinav.composeapps.viewmodel.OrderViewModel
 
 enum class CupcakeScreen(@StringRes val title: Int) {
