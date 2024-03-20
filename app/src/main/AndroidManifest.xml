@@ -16,7 +16,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDgwoiy9lgNvhemXAW88_8htuTggGxHMJc"/>
+            android:value="${API_KEY}"/>
 
         <activity
             android:name=".crane.CraneActivity"
