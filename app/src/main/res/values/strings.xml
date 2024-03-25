@@ -152,4 +152,13 @@
     <string name="cd_back">Back</string>
     <string name="cd_loading">Loading</string>
     <string name="cd_drawer">Open drawer</string>
+
+    <string name="rally">Rally</string>
+    <string name="total">Total</string>
+    <string name="due">Due</string>
+    <string name="account_redacted">• • • • • </string>
+    <string name="accounts">Accounts</string>
+    <string name="bills">Bills</string>
+    <string name="sort">Sort</string>
+    <string name="see_all">SEE ALL</string>
 </resources>
