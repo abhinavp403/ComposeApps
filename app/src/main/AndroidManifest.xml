@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".crane.CraneApplication"
+        android:name=".jetnews.JetnewsApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -19,7 +19,7 @@
 <!--            android:value="${API_KEY}"/>-->
 
         <activity
-            android:name=".rally.RallyActivity"
+            android:name=".jetnews.JetNewsActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeApps">
             <intent-filter>

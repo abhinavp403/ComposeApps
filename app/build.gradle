@@ -104,4 +104,7 @@ dependencies {
         // Volley is a transitive dependency of maps
         implementation("com.android.volley:volley:1.2.1")
     }
+
+    implementation "com.google.accompanist:accompanist-swiperefresh:0.34.0"
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.34.0"
 }
